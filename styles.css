@@ -1,0 +1,183 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.pricing-h2{
+    color: black;
+}
+
+h3{
+    font-family: 'Unbounded', cursive;
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.nav-link{
+    margin:2px 0px;
+}
+
+.btn{
+    color:white;
+}
+
+/* NAVBAR SECTION */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+/* BUTTONS */
+.download-buttons{
+    margin:8% 3% 0 5%;
+}
+
+/* TITLE IMAGE */
+.title-img{
+    width:60%;
+    transform:rotate(25deg);
+    margin-left: 25%;
+    margin-top:10%;
+    /* position: absolute; */
+}
+
+/* FEATURES */
+#features{
+    /* margin-top:25%; */
+    padding: 7% 15%;
+    background-color: white;
+    /* position: absolute; */
+    /* z-index: 1; */
+} 
+
+.feature-container{
+    text-align: center;
+    padding: 3%;
+}
+
+.img{
+    margin-bottom: 10%;
+    color:#ef8172;
+}
+
+.img:hover{
+    color:#ef1872;
+}
+
+/* TESTEMONIAL SECTION */
+
+#testimonials{
+  
+    text-align: center;
+    background-color:#ef8172;
+}
+
+.testimonials-img{
+    width:10%;
+    border-radius: 100%;
+    margin:5%;
+}
+
+.testimonial-txt{
+    color: white;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    /* margin:5% 10%; */
+
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+.carousel-item{
+    padding:3% 15%;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+
+.btn1{
+    color:black;
+}
+
+
+/* CTA SECTION */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-hrading{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+#footer{
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.footer-img{
+    padding:2% 3%;
+}
+
+
+@media (max-width:990px){
+    .title-img{
+        transform: rotate(0);
+        margin-right: 25%;
+        
+    }
+    #title{
+        text-align: center;
+    }
+    .work{
+        text-align: center;
+    }
+}
